@@ -1,0 +1,225 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #111;
+}
+
+#gameContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#windraw {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #4caf50;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #111;
+}
+
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #111;
+    color: white;
+}
+
+.gameContainer input,
+.gameContainer button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.infoPanel {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.infoPanel .meta,
+.infoPanel .currentBalance,
+.infoPanel .currentBet,
+.infoPanel .instructions {
+    margin: 5px 0;
+}
+
+.players {
+    margin-top: 10px;
+}
+
+.players h3 {
+    margin: 0;
+}
+
+.players ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+#scoreboard {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+}
+
+#scoreboard #dinheiro,
+#scoreboard #pontos {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  #canvasSnake, #canvasFood, #canvasHex {
+    position: absolute;
+  }
+  
+  .gamestite img {
+    width: 100px;
+  }
+  
+  .gamestatus {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .points, .dinheiro {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .windraw {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .windraw button {
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 0.7rem;
+    background: #189100;
+    color: #fff;
+    width: 100%;
+    animation: anime 0.5s infinite;
+  }
+  
+  @keyframes anime {
+    0% {
+      box-shadow: rgba(53, 168, 0, 0.2) 0px 8px 24px;
+    }
+    50% {
+      box-shadow: rgba(53, 168, 0, 0) 0px 8px 24px;
+    }
+    100% {
+      box-shadow: rgba(53, 168, 0, 0.2) 0px 8px 24px;
+    }
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  #canvasSnake, #canvasFood, #canvasHex {
+    position: absolute;
+  }
+  
+  .gamestite img {
+    width: 100px;
+  }
+  
+  .gamestatus {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .points, .dinheiro {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .windraw {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .windraw button {
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 0.7rem;
+    background: #189100;
+    color: #fff;
+    width: 100%;
+    animation: anime 0.5s infinite;
+  }
+  
+  @keyframes anime {
+    0% {
+      box-shadow: rgba(53, 168, 0, 0.2) 0px 8px 24px;
+    }
+    50% {
+      box-shadow: rgba(53, 168, 0, 0) 0px 8px 24px;
+    }
+    100% {
+      box-shadow: rgba(53, 168, 0, 0.2) 0px 8px 24px;
+    }
+  }
+  
